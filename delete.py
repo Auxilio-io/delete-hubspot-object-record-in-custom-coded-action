@@ -1,7 +1,7 @@
 import requests
 import os
 
-token = os.getenv('custom_code_actions_access_token')
+token = os.getenv('YOUR_PRIVATE_APP_TOKEN')
 
 def main(event):
   object_type = "tickets"
